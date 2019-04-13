@@ -1,11 +1,205 @@
 body {
-    background-image: url("white-waves.png");
+  margin:auto;
+  padding:0;
+  background-image: url("../images/background-image/white-waves.png")
 }
 
-div {
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
+header {
+    background-color: white;
+    margin-bottom:40px;
+    padding 0;
+    text-align:center;
+    height:80px;
+    width: auto;
+    border-bottom-style: solid;
+    border-color: #ccc;
+}
+
+.links{
+  display:inline-block;
+  height:100%;
+  padding-top:15px;
+  margin-left: 400px;
+}
+
+a { 
+  color:darkgrey;
+  margin-right: 32px;
+  text-decoration:none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.page-title {
+  display:inline-block;
+  background-color: #4aaaa5;
+  line-height: 73px;
+  text-align: center;
+  color: white;
+  width:232px;
+  padding:5px;
+  margin-right: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*page1 is styling index html*/
+#page1 {
+    background-color: white;
+    margin-top: 39px;
+    margin:auto;
+    height: 464px;
+    max-width: 960px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+}
+/*page 2 is styling portfolio html*/
+#page2 {
+    background-color: white;
+    margin-top: 39px;
+    margin:auto;
+    height: 464px;
+    max-width: 960px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+}
+/*page3 is styling contacts html*/
+#page3 {
+    background-color: white;
+    margin-top: 39px;
+    margin:auto;
+    height: 284px;
+    max-width: 960px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+/*section is styling portfolio html*/
+section {
+  background-color: white;
+  margin-top: 39px;
+  margin:auto;
+  height: 565px;
+  max-width: 573px;
+  border-style: solid;
+  border-color: #ddd;
+}
+
+
+img {
+  float: left;
+  margin: 0px 15px 12px 0px
+
+}
+
+
+/*Content-heading is styling index & portfolio html*/
+#content-heading {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
     margin: 20px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    padding: 8px 8px 28px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Content is styling index*/
+.content {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 5px;
+  line-height: 1.8;
+}
+
+/*Content2 is styling portfolio*/
+.content2 {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/*Contacts Information styling*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0f4240;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 75%;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+footer {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding:0px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 7px;
+  }
+
+  .footer-section {
+    margin-top: 10px;
+    font-size: 8px;
   }
